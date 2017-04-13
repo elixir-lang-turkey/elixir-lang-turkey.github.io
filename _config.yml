@@ -3,7 +3,7 @@ permalink: none
 kramdown:
   input: GFM
   hard_wrap: false
-repository: elixir-lang/elixir-lang.github.com
+repository: elixir-lang-turkey/elixir-lang-turkey.github.com
 gems:
   - jemoji
   - jekyll-sitemap
