@@ -1,13 +1,13 @@
 <div id="post-pagination" class="pagination loop-pagination">
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-    <a class="prev page-numbers" href="/blog">Previous</a>
+    <a class="prev page-numbers" href="/blog">Önceki</a>
     {% else %}
-    <a class="prev page-numbers" href="/blog/page{{paginator.previous_page}}">Previous</a>
+    <a class="prev page-numbers" href="/blog/page{{paginator.previous_page}}">Önceki</a>
     {% endif %}
   {% endif %}
 
-  
+
   {% if paginator.page == 1 %}
     <span class="page-numbers current">1</span>
   {% else %}
@@ -23,6 +23,6 @@
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a class="next page-numbers spec" href="/blog/page{{paginator.next_page}}">Next</a>
+    <a class="next page-numbers spec" href="/blog/page{{paginator.next_page}}">İleri</a>
   {% endif %}
 </div>
